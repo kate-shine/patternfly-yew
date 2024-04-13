@@ -129,7 +129,6 @@ pub fn nav_item(props: &NavItemProperties) -> Html {
             data-ouia-safe={props.ouia_safe}
         >
             <a
-                href="#"
                 class="pf-v5-c-nav__link"
                 onclick={props.onclick.reform(|_|())}
             >
